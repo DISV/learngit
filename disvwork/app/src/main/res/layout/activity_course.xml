@@ -65,27 +65,13 @@
         android:text="XX-XX"
         android:textSize="30dp" />
 
-    <ImageView
-        android:id="@+id/alarm"
-        android:layout_width="131dp"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"
-        android:src="@drawable/ic_alarm" />
-
-    <ImageView
-        android:id="@+id/remind"
-        android:layout_width="95dp"
-        android:layout_height="81dp"
-        android:layout_alignBottom="@+id/alarm"
-        android:layout_toEndOf="@+id/alarm"
-        android:src="@drawable/ic_check" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/alarm"
-        android:layout_marginTop="-70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
         android:text="课程笔记"
         android:textSize="40dp" />
 </RelativeLayout>
