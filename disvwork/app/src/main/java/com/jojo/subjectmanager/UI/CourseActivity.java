@@ -1,7 +1,11 @@
-package com.jojo.subjectmanager;
+package com.jojo.subjectmanager.UI;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+
+import com.jojo.subjectmanager.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CourseActivity extends AppCompatActivity {
 

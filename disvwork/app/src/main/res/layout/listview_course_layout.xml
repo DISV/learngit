@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/course"
+        android:id="@+id/courseEntity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="课程"
@@ -16,13 +16,16 @@
         android:layout_height="81dp"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-2dp"
-        android:layout_toEndOf="@+id/course"
+        android:layout_toEndOf="@+id/courseEntity"
         android:text="上课时间"
         android:textSize="45dp" />
 
     <CheckBox
+        android:id="@+id/clock"
         android:layout_width="82dp"
         android:layout_height="78dp"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/start" />
+        android:layout_toEndOf="@+id/start"
+        android:text="提醒"
+        android:textSize="30dp"/>
 </RelativeLayout>
