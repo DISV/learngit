@@ -16,7 +16,8 @@
         android:layout_width="83dp"
         android:layout_height="45dp"
         android:src="@drawable/ic_alarm"
-        tools:layout_editor_absoluteX="301dp" />
+        tools:layout_editor_absoluteX="301dp"
+        tools:ignore="MissingConstraints" />
     <ListView
         android:id="@+id/listview"
         android:layout_width="393dp"
